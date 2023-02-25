@@ -1,4 +1,4 @@
-// 大数加大数
+// 高精度加法
 #include<bits/stdc++.h>
 
 using namespace std;
