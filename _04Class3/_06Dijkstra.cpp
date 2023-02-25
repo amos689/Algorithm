@@ -6,6 +6,7 @@
     多源汇最短路
         Floyd算法
 */
+//dijkstra算法一定不能存在负权边
 #include<bits/stdc++.h>
 
 using namespace std;
