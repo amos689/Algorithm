@@ -16,7 +16,8 @@ const int N = 100010;
 
 int n, m;
 int e[N], ne[N], h[N], w[N], idx;
-int dist[N], st[N];
+int dist[N];
+bool st[N];
 
 void add(int a, int b, int c)
 {
