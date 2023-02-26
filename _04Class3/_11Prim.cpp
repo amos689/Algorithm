@@ -46,11 +46,11 @@ void prim()
             return;
         }
         res += dist[t];
+        st[t] = true;
         
         // 更新生成树外的点到生成树集合的距离
         // 这里的for和dijkstra的区别就是g不需要再加上distance, 因为是到集合的距离
         for(int j = 1; j <= n; j++) dist[j] = min(dist[j], g[j][t]);
-        st[t] = true;
     }
     
     cout << res << endl;
