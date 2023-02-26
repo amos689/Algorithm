@@ -45,6 +45,7 @@ void prim()
             cout << "impossible" << endl;
             return;
         }
+        // res应该在这里加上, 防止负权自环产生的影响
         res += dist[t];
         st[t] = true;
         
