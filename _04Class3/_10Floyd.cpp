@@ -2,7 +2,7 @@
 
 using namespace std;
 
-const int N = 210, MAX = 1e9;
+const int N = 210, MAX = 0x3f3f3f3f;
 
 int n, m, q;
 int d[N][N];
