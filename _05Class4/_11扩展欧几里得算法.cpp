@@ -8,10 +8,10 @@
                 gcd(a, b)=gcd(b, a % b)
             ¶ø
                 bx¡ä + (a % b)y¡ä = gcd(b, a % b)
-                bx¡ä + (a ? [a / b] ? b)y¡ä = gcd(b, a % b)
-                ay¡ä + b(x¡ä ? [a / b] ? y¡ä) = gcd(b, a % b) = gcd(a, b)
+                bx¡ä + (a - [a / b] * b)y¡ä = gcd(b, a % b)
+                ay¡ä + b(x¡ä - [a / b] * y¡ä) = gcd(b, a % b) = gcd(a, b)
             ËùÒÔ
-                x = y¡ä,y = x¡ä ? [a / b] ? y¡ä
+                x = y¡ä,y = x¡ä - [a / b] * y¡ä
 */
 #include<bits/stdc++.h>
 
